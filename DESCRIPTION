@@ -1,5 +1,5 @@
 Package: biocentral
-Title: replicate the central dogma of molecular biology.
+Title: replicate the central dogma of molecular biology
 Version: 0.0.0.9000
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
@@ -12,3 +12,10 @@ RoxygenNote: 7.1.2
 Depends: 
     R (>= 2.10)
 LazyData: true
+Imports: 
+    ggplot2,
+    magrittr,
+    stringr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

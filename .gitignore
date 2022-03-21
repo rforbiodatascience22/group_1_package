@@ -6,3 +6,6 @@
 mypkgname.Rcheck/
 mypkgname*.tar.gz
 mypkgname*.tgz
+biocentral.Rcheck/
+biocentral*.tar.gz
+biocentral*.tgz

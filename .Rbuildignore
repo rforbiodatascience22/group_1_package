@@ -1,2 +1,6 @@
-^mypkgname\.Rproj$
+^biocentral\.Rproj$
 ^\.Rproj\.user$
+^biocentral\.Rcheck$
+^biocentral.*\.tar\.gz$
+^biocentral.*\.tgz$
+^LICENSE\.md$

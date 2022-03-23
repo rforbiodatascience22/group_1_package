@@ -1,4 +1,5 @@
+
 test_that("if you get correct dna length", {
-  expect_equal(len(createdna(4)), 4)
-  expect_equal(len(createdna(77)), 77)
+  expect_equal(stringr::str_length(createdna(4)), 4)
+  expect_equal(stringr::str_length(createdna(77)), 77)
 })

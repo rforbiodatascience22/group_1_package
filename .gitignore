@@ -3,6 +3,7 @@
 .Rdata
 .httr-oauth
 .DS_Store
+project.Rproj
 mypkgname.Rcheck/
 mypkgname*.tar.gz
 mypkgname*.tgz

@@ -35,7 +35,7 @@ seq_count <- function(seq){
   
   # Construct bar plot
   countPlot <- counts %>% 
-    ggplot2::ggplot(ggplot2::aes(x = seq, y = Counts, fill = seq)) +
+    ggplot2::ggplot(ggplot2::aes(x = Amino_acids, y = Counts, fill = Amino_acids)) +
     ggplot2::geom_col() +
     ggplot2::theme_bw()
   

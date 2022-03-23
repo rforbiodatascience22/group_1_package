@@ -1,8 +1,7 @@
 #' Title: Start codon RNA sequence to aminoacid
 #'
-#' @param start
 #' @param rna sequence
-#'
+#' @param Start of codon sequence
 #' @return codon
 #' @export
 #'

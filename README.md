@@ -1,7 +1,7 @@
 The biocentral package for all your central dogma needs
 ================
 
-Group 1
+## Group 1
 
 -   Danli Shen (s185387)
 

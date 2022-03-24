@@ -4,3 +4,5 @@
 ^biocentral.*\.tar\.gz$
 ^biocentral.*\.tgz$
 ^LICENSE\.md$
+^doc$
+^Meta$

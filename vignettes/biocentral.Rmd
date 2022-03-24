@@ -1,0 +1,36 @@
+---
+title: "biocentral"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{createdna}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(biocentral)
+```
+
+# DNA-RNA
+insert your input DNA sequence which must be multiples of three. Here we use random DNA sequence for example.
+```{r}
+DNAseq <- createdna(30)
+RNAseq <- dna_to_rna(DNAseq)
+RNAseq
+```
+
+# RNA-Amino Acid
+insert your input RNA sequence which must be multiples of three. Here we use random RNA sequence for example.
+```{r}
+aa <- codon2amino(codon_start(RNAseq))
+aa
+```
+
+# 

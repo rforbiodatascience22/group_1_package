@@ -10,3 +10,6 @@ mypkgname*.tgz
 biocentral.Rcheck/
 biocentral*.tar.gz
 biocentral*.tgz
+inst/doc
+/doc/
+/Meta/

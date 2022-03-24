@@ -1,7 +1,17 @@
 The biocentral package for all your central dogma needs
 ================
-Danli Shen (s185387)Dave Rojas (s212767)Mathias N. Stokholm
-(s184257)Ziyu Zhang (s212657)Karolina Krzesińska (s212842)
+
+Group 1
+
+-   Danli Shen (s185387)
+
+-   Dave Rojas (s212767)
+
+-   Mathias N. Stokholm (s184257)
+
+-   Ziyu Zhang (s212657)
+
+-   Karolina Krzesińska (s212842)
 
 The biocentral R package contains functions pertaining to the central
 dogma including transcription and translation. The package also contains

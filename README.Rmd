@@ -7,13 +7,8 @@ author:
  - Mathias N. Stokholm (s184257)
  - Ziyu Zhang (s212657)
  - Karolina Krzesińska (s212842)
-output: rmarkdown::pdf_document
-vignette: >
-  %\VignetteIndexEntry{createdna}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+output: github_document
 ---
-
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -61,4 +56,3 @@ To determine the amino acid frequency, the seq_count function is used. This func
 ```{r}
 seq_count(seq = aa)
 ```
-

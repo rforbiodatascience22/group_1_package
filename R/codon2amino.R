@@ -5,6 +5,7 @@
 #' @export
 #'
 codon2amino<- function(codons){
+  print(codon2amino)
   amino_seq <- paste0(codon_table[codons], collapse = "")
   return(amino_seq)
 }

@@ -8,8 +8,6 @@ codon2amino(codons)
 }
 \arguments{
 \item{codons}{codons from F3}
-
-\item{codon_table}{saved in T4}
 }
 \value{
 amino_seq 1 letter code AA

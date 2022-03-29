@@ -9,7 +9,7 @@ codon_start(rna, start = 1)
 \arguments{
 \item{rna}{sequence}
 
-\item{Start}{of codon sequence}
+\item{start}{of codon sequence}
 }
 \value{
 codon

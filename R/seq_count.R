@@ -25,7 +25,7 @@ seq_count <- function(seq){
     unique()
   
   # Count occurences of each amino acid in sequence
-  counts <- sapply(amino_acids, function(aa) stringr::str_count(string = seq, pattern =  aa)) %>% 
+  counts <- sapply(amino_acids, function(aa) stringr::str_count(string = seq, pattern =  fixed(aa))) %>% 
     as.data.frame()
   
   # Change colname to "Counts"

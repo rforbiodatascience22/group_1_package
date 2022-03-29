@@ -1,6 +1,7 @@
 #' Title: Using the codon table identify the codons and their respective amino acid, return the aminoacids
 #'
 #' @param codons codons from F3
+#' @param codon_table codon_table
 #' @return amino_seq 1 letter code AA
 #' @export
 #'

@@ -8,6 +8,8 @@ codon2amino(codons)
 }
 \arguments{
 \item{codons}{codons from F3}
+
+\item{codon_table}{codon_table}
 }
 \value{
 amino_seq 1 letter code AA

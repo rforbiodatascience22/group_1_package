@@ -60,3 +60,4 @@ To determine the amino acid frequency, the seq_count function is used. This func
 ```{r}
 seq_count(seq = aa)
 ```
+

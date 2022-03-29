@@ -13,6 +13,7 @@ The biocentral package for all your central dogma needs
 
 -   Karolina Krzesińska (s212842)
 
+
 The biocentral R package contains functions pertaining to the central
 dogma including transcription and translation. The package also contains
 functions to synthesise DNA and measure amino acid frequency in a
